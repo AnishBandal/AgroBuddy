@@ -1,0 +1,58 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local machine configuration
+local.properties
+*.jks
+*.keystore
+
+# Firebase configuration
+# Keep a local copy for development; do not commit project credentials.
+app/google-services.json
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Android tooling output
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof
+
+# Generated and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Python / Chaquopy
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Optional IDE metadata
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
